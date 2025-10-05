@@ -77,6 +77,7 @@ lapBtn.addEventListener('click', function () {
     let lapTime = display.innerHTML;
     let li = document.createElement("li");
     li.textContent = `Lap ${lapsContainer.children.length + 1}: ${lapTime}`;
+    li.style.color = "white";
     lapsContainer.appendChild(li);
   }
 });
